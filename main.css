@@ -1,0 +1,73 @@
+
+* { padding:0;
+margin:0;
+box-sizing:border-box;}
+
+
+body { display:flex;
+justify-content:center;
+background-color:#393939;
+flex-wrap:wrap;
+color:white;
+font-family:'quicksand', sans-serif;
+}
+
+.topdiv { width:100%;
+text-align: center;
+background-color:#3f48cc;
+padding:20px;
+
+}
+
+
+.container { width: 50%;
+text-align:center;
+margin-top:25px;}
+
+#word { font-size:6rem;
+margin-top:15px;
+}
+
+#numsecs { color:green;}
+
+#usertypes { padding:10px;
+width:100%;
+}
+
+#gamestatus{ margin-top:10px;
+text-transform:capitalize;
+}
+
+#updates { display:flex;
+justify-content:space-around;
+margin-top:20px;
+}
+
+#instructions { margin-top:25px;
+background-color:#3f48cc;
+padding: 10px;
+}
+
+
+
+
+
+/*
+   <div class = "container">
+  
+  <p> type the given word within <span id = "numsecs"> 5 </span>
+  <p id = "word"> river </p>
+  <input type = "text" id = "usertypes">
+  <p id = "gamestatus"> Game Over!!! </div>
+  <div id = "updates">
+  <span id = "timer"> Time Left: 0 </span>   
+  <span id = "scorer"> Score: 0 </span>
+  </div>
+  
+  <div id = "instructions">
+  <h4> Instructions </h4>
+  <p> Type each word in the given amount of seconds to score a point. To play again just type the current word and your score will reset</p>
+  
+  </div>
+  </div>
+  */
